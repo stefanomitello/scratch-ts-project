@@ -1,0 +1,24 @@
+{
+  "name": "progetto",
+  "version": "1.0.0",
+  "description": "test finale corso16",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon build/app.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12",
+    "node-fetch": "^2.6.6",
+    "nodemon": "^2.0.14"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.4",
+    "@types/express": "^4.17.13",
+    "@types/node-fetch": "^2.5.12",
+  }
+}
